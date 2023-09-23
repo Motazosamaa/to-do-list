@@ -17,7 +17,7 @@ function TaskList({ tasks, onDelete, onComplete }) {
                   onClick={() => onComplete(index)}
                   style={{ cursor: 'pointer' }}
                 >
-                  {task.text}
+                  {task.text+" "}
                 </span>
                 <button
                   className="btn btn-success btn-sm ml-2"
